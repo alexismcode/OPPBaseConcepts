@@ -23,13 +23,17 @@ using OOPConcepts.Logica;
 
 try
 {
-    var fecha1 = new Date()
+    var empleado1 = new SalaryEmployes()
     {
-        Year = 2023,
-        Month = 5,
-        Day = 29
+        Id = 1010,
+        FirstName = "Alexis",
+        LastName = "Sanchez",
+        BornDate = new Date(2002, 11, 8),
+        HireDate = new Date(2021, 5, 15),
+        IsActive = true,
+        Salary = 600
     };
-    Console.WriteLine(fecha1);
+    Console.WriteLine(empleado1);
 
 }
 catch (Exception ex)
@@ -37,4 +41,3 @@ catch (Exception ex)
     Console.WriteLine($"ERROR: [{ex.Message}]");
 }
 
-Console.WriteLine("Sigo en pie ...!");
