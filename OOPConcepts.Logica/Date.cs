@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPConceptos
+namespace OOPConcepts.Logica
 {
     public class Date
     {
@@ -73,17 +73,17 @@ namespace OOPConceptos
             {
                 return day;
             }
-            if ((day > 1 && day <= 28 && Month == 2)||
-                    (day > 1 && day <= 30 && Month == 4) || 
-                    (day > 1 && day <= 30 && Month == 6) || 
+            if ((day > 1 && day <= 28 && Month == 2) ||
+                    (day > 1 && day <= 30 && Month == 4) ||
+                    (day > 1 && day <= 30 && Month == 6) ||
                     (day > 1 && day <= 30 && Month == 9) ||
-                    (day > 1 && day <= 30 && Month == 11)||
+                    (day > 1 && day <= 30 && Month == 11) ||
                     (day > 1 && day <= 31 && Month == 1) ||
                     (day > 1 && day <= 31 && Month == 5) ||
                     (day > 1 && day <= 31 && Month == 7) ||
                     (day > 1 && day <= 31 && Month == 8) ||
-                    (day > 1 && day <= 31 && Month == 10)||
-                    (day > 1 && day <= 31 && Month == 12)) 
+                    (day > 1 && day <= 31 && Month == 10) ||
+                    (day > 1 && day <= 31 && Month == 12))
             {
                 return day;
             }

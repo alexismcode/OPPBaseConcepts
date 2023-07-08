@@ -19,13 +19,14 @@
 
 
 
-using OOPConceptos;
+using OOPConcepts.Logica;
+
 try
 {
     var fecha1 = new Date()
     {
         Year = 2023,
-        Month = 2,
+        Month = 5,
         Day = 29
     };
     Console.WriteLine(fecha1);

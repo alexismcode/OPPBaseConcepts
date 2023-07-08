@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPConceptos", "OOPConceptos\OOPConceptos.csproj", "{E36F989C-AF82-439E-8E78-75D58E2A4FC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPConceptos", "OOPConceptos\OOPConceptos.csproj", "{E36F989C-AF82-439E-8E78-75D58E2A4FC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPConcepts.Logica", "OOPConcepts.Logica\OOPConcepts.Logica.csproj", "{08F84826-34A5-460C-A67D-66D8BA7AA9BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPPConcept.Interfaz", "OPPConcept.Interfaz\OPPConcept.Interfaz.csproj", "{5E2E34DD-54C3-4F5E-88F5-297C71D15F08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{E36F989C-AF82-439E-8E78-75D58E2A4FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E36F989C-AF82-439E-8E78-75D58E2A4FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E36F989C-AF82-439E-8E78-75D58E2A4FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08F84826-34A5-460C-A67D-66D8BA7AA9BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F84826-34A5-460C-A67D-66D8BA7AA9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F84826-34A5-460C-A67D-66D8BA7AA9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F84826-34A5-460C-A67D-66D8BA7AA9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2E34DD-54C3-4F5E-88F5-297C71D15F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2E34DD-54C3-4F5E-88F5-297C71D15F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2E34DD-54C3-4F5E-88F5-297C71D15F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2E34DD-54C3-4F5E-88F5-297C71D15F08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
