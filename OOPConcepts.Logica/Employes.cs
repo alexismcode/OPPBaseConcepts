@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPConcepts.Logica
 {
-    public abstract class Employes
+    public abstract class Employes : iPay
     {
         public int Id { get; set; }
         public string? FirstName { get; set; }
@@ -19,7 +19,7 @@ namespace OOPConcepts.Logica
         public override string ToString()
         {
             return $"{Id}\t{FirstName} {LastName}\n\t" +
-                   $"HireDate..............{HireDate}";
+                   $"HireDate..................[{HireDate}]\t";
         }
 
         public abstract decimal GetValueToPay();

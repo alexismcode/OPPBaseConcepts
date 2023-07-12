@@ -25,8 +25,8 @@ namespace OOPConcepts.Logica
         public override string ToString()
         {
             return $"{base.ToString()}\n\t" +
-                   $"Salary................{Salary:C2}\n\t" +
-                   $"Rol...................{GetValueToPay():C2}";
+                   $"Salary....................{Salary, 20:C2}\n\t" +
+                   $"Rol.......................{GetValueToPay(), 20:C2}\n\n";
         }
 
 
